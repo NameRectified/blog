@@ -4,7 +4,7 @@
 export const SITE_TITLE = "Master Of Universe";
 export const SITE_DESCRIPTION =
   "This is the place where I will share my journey. It's more of a journal than a blog";
-export const TWITTER_HANDLE = "@masterofuniverse";
+export const TWITTER_HANDLE = "@masterofuniverse  ";
 export const MY_NAME = "Master Of Universe";
 
 // setup in astro.config.mjs

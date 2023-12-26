@@ -42,6 +42,17 @@ export const blog = z.discriminatedUnion("external", [
   }),
 ]);
 
+export const journal = z.discriminatedUnion("external", [
+  // markdown
+  baseSchema.extend({
+    external: z.literal(false),
+    description: z.optional(z.string()),
+    ogImagePath: z.optional(z.string()),
+    canonicalUrl: z.optional(z.string()),
+  })
+]);
+  
+
 export const project = baseSchema.extend({
   url: z.string(),
 });
