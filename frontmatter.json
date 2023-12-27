@@ -20,8 +20,7 @@
     {
       "name": "default",
       "pageBundle": false,
-      "previewPath": "'blog'","'journal'"
-      "filePrefix": null,
+      "previewPath": "'blog'",
       "clearEmpty": true,
       "fields": [
         {
@@ -47,6 +46,11 @@
           "name": "heroImage",
           "type": "image",
           "isPreviewImage": true
+        },
+        {
+          "title": "external",
+          "name": "external",
+          "type": "boolean"
         }
       ]
     }
